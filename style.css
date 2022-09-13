@@ -1,0 +1,18 @@
+.green{
+color:white;
+background-color: green;
+}
+
+.red{
+  color:white;
+  background-color: red;
+}
+
+.yellow{
+  color:black;
+  background-color: yellow;
+}
+
+button:hover {
+  background-color: #aaa;
+}
