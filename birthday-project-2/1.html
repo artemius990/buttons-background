@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date of birthday</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+ <div class="conteiner">
+ 
+<header>
+<h1 >Дни рождения 2023</h1>
+</header>
+
+ <div class="conteiner2">
+          <label for="title">Введите дату:</label>
+		  <br>
+          <input  id="date" onfocus="clearContent(this)" type="date" placeholder="например 01.01.2000">
+		  <br>
+        
+		<input id="elem" type="button" value="Показать"/>
+		<br>
+		<input id="elem2" type="button" value="Удалить "/>
+		<br>  
+		</div>
+
+<div class="block1">
+     <input id="month1" type="button" value="Январь "/> 
+	 <input id="month2" type="button" value="Февраль "/>  
+	 <input id="month3" type="button" value="Март "/> 
+	 <input id="month4" type="button" value="Апрель"/>
+</div>
+<div class="block2">
+	<input id="month5" type="button" value="Май "/>
+	 <input id="month6" type="button" value="Июнь"/>
+	 <input id="month7" type="button" value="Июль "/>
+	 <input id="month8" type="button" value="Август "/>
+</div>
+ <div class="block3">
+	  <input id="month9" type="button" value="Сентябрь "/>
+	 <input id="month10" type="button" value="Октябрь"/>
+	 <input id="month11" type="button" value="Ноябрь "/>
+	 <input id="month12" type="button" value="Декабрь "/>
+</div>
+
+<hr>
+
+ 
+<p>Результат:</p>
+   <div id="out"></div>
+   
+	<ol id="list">
+	<!-- <li>0</li> -->
+	<!-- <li>1</li> -->
+	<!-- <li>2</li> -->
+	</ol>
+	
+	
+	</div>
+	
+	<div class="bottom">
+	<div>Разработчик: Артем Лапенков
+	<p>Программа действительна до 1 января 2024 года</p>
+	</div>
+	</div>
+	
+    <script  src="index.js"></script>
+</body>
+</html>
+
+<!-- type="module" -->
